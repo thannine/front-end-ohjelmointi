@@ -1,6 +1,6 @@
-import React  from 'react';
+import { TodoProps } from './TodoProps';
 
-function TodoTable(props) {
+function TodoTable(props: TodoProps) {
 
     return (
           <table>

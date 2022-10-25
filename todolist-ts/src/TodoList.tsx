@@ -3,7 +3,6 @@ import { Todo } from './Todo';
 import TodoTable from './TodoTable';
 
 
-
 function TodoList() {
     const [todo, setTodo] = useState<Todo>({description: '', date: '', priority: ''} as Todo);
     const [todos, setTodos] = useState<Array<Todo>>([]);
